@@ -1,0 +1,127 @@
+body {
+    padding-bottom: 60px;  /* Same as footer height */
+}
+nav ul li{
+    display:inline;
+}
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 60px;  /* Fixed height */
+    background-color: #f5f5f5;
+}
+
+.gallery {
+    border-color:black;
+    border-width:5px;
+    border-style: solid;
+    margin: 0 auto;
+}
+
+.row {
+    display:flex;
+    flex-wrap:wrap;
+    background-color: grey;
+    justify-content: space-between;
+    border-color:whitesmoke;
+    border-width:1px;
+    border-style:solid;
+}
+.row1{
+    border-color:brown;
+    border-width:2px;
+    border-style:solid;
+}
+.row2 {
+    margin:10px
+}
+.row3 {
+    padding:10px;
+}
+
+.box {
+    width: 30%;
+    height: 100px;
+    color: white;
+    line-height: 100px;
+    border-color:white;
+    border-width:3px;
+    border-style:dotted;
+}
+.row1>.col1 {
+    border-width:0px;
+}
+.row1>.col2{
+    border-width:5px;
+}
+.row1>.col3{
+    border-width:10px;
+}
+
+.row2>.col1 {
+    margin:0px;
+}
+.row2>.col2{
+    margin:5px;
+}
+.row2>.col3{
+    margin:10px;
+}
+
+.row3>.col1 {
+   padding:0px;
+}
+.row3>.col2{
+    padding:5px;
+}
+.row3>.col3{
+    padding:10px;
+}
+
+/* Container setup */
+.position-container {
+    position: relative;
+    height: 400px;
+    border: 2px solid #333;
+    margin: 20px;
+    padding: 20px;
+}
+
+/* Static positioning (default) */
+.static-box {
+    position: static;
+    background-color: #ffcc00;
+    padding: 15px;
+    margin: 10px;
+}
+
+/* Relative positioning */
+.relative-box {
+    position: relative;
+    top: 20px;
+    left: 20px;
+    background-color: #ff6b6b;
+    padding: 15px;
+    margin: 10px;
+}
+
+/* Absolute positioning */
+.absolute-box {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    background-color: #4ecdc4;
+    padding: 15px;
+    width: 200px;
+}
+
+/* Fixed positioning */
+.fixed-box {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    background-color: #96ceb4;
+    padding: 15px;
+    width: 200px;
+}

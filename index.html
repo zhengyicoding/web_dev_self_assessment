@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Self Assessment</title>
+    <meta name="description" content="A self assessment in HTML, CSS and JavaScript.">
+    <meta name="keywords" content="HTML, CSS, JavaScript, Assessmentk">
+    <meta property="og:title" content="HTML, CSS, JavaScript Self Assessment">
+    <meta property="og:description" content="Beginner self assessment in HTML, CSS and JavaScript.">
+    <meta property="og:image" content="url-to-image-when-shared.jpg">
+    <!-- <meta property="og:url" content="canonical-url-of-page"> -->
+    <!-- Canonical URL to prevent duplicate content -->
+    <!-- <link rel="canonical" href="https://yoursite.com/current-page"> -->
+    <!-- Robots meta - control search engine behavior -->
+    <meta name="robots" content="index, follow">
+    <meta http-equiv="content-language" content="en">
+    <meta name="author" content="Zhengyi Xu">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,700" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#html">HTML</a></li>
+                <li><a href="#css">CSS</a></li>
+                <li><a href="#js">JavaScript</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h1>My self assessment on HTML, CSS, and JavaScript</h1>
+
+        <section id="useful-tags">
+            <h2>10 most useful HTML tags</h2>
+            <ul>
+                <li>div</li>
+                <li>header</li>
+                <li>nav</li>
+                <li>section</li>
+                <li>p</li>
+                <li>ul</li>
+                <li>main</li>
+                <li>footer</li>
+                <li>body</li>
+                <li>form</li>
+            </ul>
+        </section>
+        <hr />
+        <section id="grid">
+            <h2>3*3 grid</h2>
+            <p>A grid made of only div and span to help organize contents on a page</p><div>
+                <div>
+                    <span>Cell 1</span>
+                    <span>Cell 2</span>
+                    <span>Cell 3</span>
+                </div>
+                <div>
+                    <span>Cell 4</span>
+                    <span>Cell 5</span>
+                    <span>Cell 6</span>
+                </div>
+                <div>
+                    <span>Cell 7</span>
+                    <span>Cell 8</span>
+                    <span>Cell 9</span>
+                </div>
+            </div>
+        </section>
+        <hr />
+        <section id="section3">
+            <h2>CSS box model gallery</h2>
+            <p>Showcase CSS box model</p>
+            <div class="gallery">
+                <!-- Row 1: Borders -->
+                <div class="row row1">
+                    <div class="box col1">0px border</div>
+                    <div class="box col2">5px border</div>
+                    <div class="box col3">10px border</div>
+                </div>
+                <!-- Row 2: Margins -->
+                <div class="row row2">
+                    <div class="box col1">0px margin</div>
+                    <div class="box col2">5px margin</div>
+                    <div class="box col3">10px margin</div>
+                </div>
+                <!-- Row 3: Padding -->
+                <div class="row row3">
+                    <div class="box col1">0px padding</div>
+                    <div class="box col2">5px padding</div>
+                    <div class="box col3">10px padding</div>
+                </div>
+            </div>
+        </section>
+        <hr />
+        <section id="font-sizes">
+            <h2>Font Size Units Examples</h2>
+            <ul>
+                <li style="font-size: 16px;">
+                    This is 16px (pixels) - Used for fixed-size components that should remain consistent across devices. Example: A button text that needs to maintain exact dimensions.
+                </li>
+        
+                <li style="font-size: 1.5rem;">
+                    This is 1.5rem (root em) - Used for elements that should scale with user's browser settings. Example: Main heading text that respects user's accessibility preferences.
+                </li>
+        
+                <li style="font-size: 1.2em;">
+                    This is 1.2em (relative to parent) - Used for nested elements that should scale relative to their parent. Example: Navigation dropdown menu items that are slightly smaller than the main menu.
+                </li>
+        
+                <li style="font-size: 150%;">
+                    This is 150% (percentage) - Used for elements that need to be proportionally larger than their container. Example: Highlighted text within a paragraph.
+                </li>
+        
+                <li style="font-size: 3vw;">
+                    This is 3vw (viewport width) - Used for text that should scale with screen size. Example: Hero section headlines that need to look proportional on any device.
+                </li>
+        
+                <li style="font-size: x-large;">
+                    This is x-large (keyword) - Used for simple relative sizing when exact measurements aren't critical. Example: Warning messages or alerts.
+                </li>
+            </ul>
+        </section>
+        <hr />
+        <section id="positioning-demo">
+            <h2>CSS Positioning Examples</h2>
+            <div class="position-container">
+                <!-- Static positioning (default) -->
+                <div class="static-box">
+                    Static Position
+                    <p>Default positioning. Used for normal document flow.</p>
+                </div>
+        
+                <!-- Relative positioning -->
+                <div class="relative-box">
+                    Relative Position
+                    <p>Shifted 20px right and down from normal position. Good for small adjustments.</p>
+                </div>
+        
+                <!-- Absolute positioning -->
+                <div class="absolute-box">
+                    Absolute Position
+                    <p>Pinned to top-right of container. Perfect for modals or tooltips.</p>
+                </div>
+        
+                <!-- Fixed positioning -->
+                <div class="fixed-box">
+                    Fixed Position
+                    <p>Stays visible while scrolling. Great for navigation bars.</p>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2025 Zhengyi Xu</p>
+    </footer>
+</body>
+</html>
